@@ -1,7 +1,8 @@
 # @dojouniverse/repository-ts
 
-[![License](https://img.shields.io)](https://opensource.org)
-[![Website](https://img.shields.io)](https://dojouniverse.com)
+![Apache 2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue?logo=apache)
+![Static Badge](https://img.shields.io/badge/DOJO-UNIVERSE-black/?color=white)
+
 
 Official TypeScript repository patterns for the **DojoUniverse** ecosystem. Built with a focus on **Clean Architecture**, testability, and enterprise-grade scalability.
 
