@@ -1,0 +1,42 @@
+{
+  "name": "@dojouniverse/repository-ts",
+  "homepage": "https://dojouniverse.com/",
+  "version": "1.0.0",
+  "description": "Abstract repository pattern interfaces for TypeScript developers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dojouniverse/repository-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "abstract-repository",
+    "abstract",
+    "repository",
+    "design-patterns",
+    "repository-pattern",
+    "clean-architecture",
+    "solid-principles",
+    "dojouniverse"
+  ],
+  "author": "DojoUniverse Team <developers@dojouniverse.com> (https://dojouniverse.com)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "typescript": "^5.9.3"
+  }
+}
