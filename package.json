@@ -16,7 +16,11 @@
     "build": "tsc",
     "clean": "rimraf dist",
     "prepublishOnly": "npm run clean && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test:types": "vitest --project=typecheck",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
   },
   "repository": {
     "type": "git",
@@ -37,6 +41,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "rimraf": "^6.1.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   }
 }
